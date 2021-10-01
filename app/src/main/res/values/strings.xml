@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Currency Exchanger lite</string>
+
+    <string-array name="countryNames">
+        <item>1. UAE Dirham (AED) دإ</item>
+        <item>2. Afghani (AFN) Af</item>
+        <item>3. Lek (ALL) L</item>
+        <item>4. Armenian Dram (AMD) Դ</item>
+        <item>5. Kwanza (AOA) Kz</item>
+        <item>6. Argentine Peso (ARS) $</item>
+        <item>7. Australian Dollar (AUD) $</item>
+        <item>8. Aruban Guilder/Florin (AWG) ƒ</item>
+        <item>9. Azerbaijanian Manat (AZN) ман</item>
+        <item>10. Konvertibilna Marka (BAM) КМ</item>
+        <item>11. Barbados Dollar (BBD) $</item>
+        <item>12. Taka (BDT) ৳</item>
+        <item>13. Bulgarian Lev (BGN) лв</item>
+        <item>14. Bahraini Dinar (BHD) بد</item>
+        <item>15. Burundi Franc (BIF) ₣</item>
+        <item>16. Bermudian Dollar (BMD) $</item>
+        <item>17. Brunei Dollar (BND) $</item>
+        <item>18. Boliviano (BOB) Bs</item>
+        <item>19. Brazilian Real (BRL) R$</item>
+        <item>20. Bahamian Dollar (BSD) $</item>
+        <item>21. Ngultrum (BTN) </item>
+        <item>22. Pula (BWP) P</item>
+        <item>23. Belarusian Ruble (BYN) Br</item>
+        <item>24. Belize Dollar (BZD) $</item>
+        <item>25. Canadian Dollar (CAD) $</item>
+        <item>26. Congolese Franc (CDF) ₣</item>
+        <item>27. Swiss Franc (CHF) ₣</item>
+        <item>28. Chilean Peso (CLP) $</item>
+        <item>29. Yuan (CNY) ¥</item>
+        <item>30. Colombian Peso (COP) $</item>
+        <item>31. Costa Rican Colon (CRC) ₡</item>
+        <item>32. Cuban Peso (CUP) $</item>
+        <item>33. Cape Verde Escudo (CVE) $</item>
+        <item>34. Czech Koruna (CZK) Kč</item>
+        <item>35. Djibouti Franc (DJF) ₣</item>
+        <item>36. Danish Krone (DKK) kr</item>
+        <item>37. Dominican Peso (DOP) $</item>
+        <item>38. Algerian Dinar (DZD) دج</item>
+        <item>39. Egyptian Pound (EGP) £</item>
+        <item>40. Nakfa (ERN) Nfk</item>
+        <item>41. Ethiopian Birr (ETB) </item>
+        <item>42. Euro (EUR) €</item>
+        <item>43. Fiji Dollar (FJD) $</item>
+        <item>44. Falkland Islands Pound (FKP) £</item>
+        <item>45. Pound Sterling (GBP) £</item>
+        <item>46. Lari (GEL) ლ</item>
+        <item>47. Cedi (GHS) ₵</item>
+        <item>48. Gibraltar Pound (GIP) £</item>
+        <item>49. Dalasi (GMD) D</item>
+        <item>50. Guinea Franc (GNF) ₣</item>
+        <item>51. Quetzal (GTQ) Q</item>
+        <item>52. Guyana Dollar (GYD) $</item>
+        <item>53. Hong Kong Dollar (HKD) $</item>
+        <item>54. Lempira (HNL) L</item>
+        <item>55. Croatian Kuna (HRK) Kn</item>
+        <item>56. Gourde (HTG) G</item>
+        <item>57. Forint (HUF) Ft</item>
+        <item>58. Rupiah (IDR) Rp</item>
+        <item>59. New Israeli Shekel (ILS) ₪</item>
+        <item>60. Indian Rupee (INR) ₹</item>
+        <item>61. Iraqi Dinar (IQD) عد</item>
+        <item>62. Iranian Rial (IRR) ﷼</item>
+        <item>63. Iceland Krona (ISK) Kr</item>
+        <item>64. Jamaican Dollar (JMD) $</item>
+        <item>65. Jordanian Dinar (JOD) دا</item>
+        <item>66. Yen (JPY) ¥</item>
+        <item>67. Kenyan Shilling (KES) Sh</item>
+        <item>68. Som (KGS) </item>
+        <item>69. Riel (KHR) ៛</item>
+        <item>70. North Korean Won (KPW) ₩</item>
+        <item>71. South Korean Won (KRW) ₩</item>
+        <item>72. Kuwaiti Dinar (KWD) دك</item>
+        <item>73. Cayman Islands Dollar (KYD) $</item>
+        <item>74. Tenge (KZT) 〒</item>
+        <item>75. Kip (LAK) ₭</item>
+        <item>76. Lebanese Pound (LBP) لل</item>
+        <item>77. Sri Lanka Rupee (LKR) Rs</item>
+        <item>78. Liberian Dollar (LRD) $</item>
+        <item>79. Loti (LSL) L</item>
+        <item>80. Libyan Dinar (LYD) لد</item>
+        <item>81. Moroccan Dirham (MAD) دم</item>
+        <item>82. Moldovan Leu (MDL) L</item>
+        <item>83. Malagasy Ariary (MGA) </item>
+        <item>84. Denar (MKD) ден</item>
+        <item>85. Kyat (MMK) K</item>
+        <item>86. Tugrik (MNT) ₮</item>
+        <item>87. Pataca (MOP) P</item>
+        <item>88. Ouguiya (MRU) UM</item>
+        <item>89. Mauritius Rupee (MUR) ₨</item>
+        <item>90. Rufiyaa (MVR) ރ</item>
+        <item>91. Kwacha (MWK) MK</item>
+        <item>92. Mexican Peso (MXN) $</item>
+        <item>93. Malaysian Ringgit (MYR) RM</item>
+        <item>94. Metical (MZN) MTn</item>
+        <item>95. Namibia Dollar (NAD) $</item>
+        <item>96. Naira (NGN) ₦</item>
+        <item>97. Cordoba Oro (NIO) C$</item>
+        <item>98. Norwegian Krone (NOK) kr</item>
+        <item>99. Nepalese Rupee (NPR) ₨</item>
+        <item>100. New Zealand Dollar (NZD) $</item>
+        <item>101. Rial Omani (OMR) رع</item>
+        <item>102. Balboa (PAB) B/</item>
+        <item>103. Nuevo Sol (PEN) S/</item>
+        <item>104. Kina (PGK) K</item>
+        <item>105. Philippine Peso (PHP) ₱</item>
+        <item>106. Pakistan Rupee (PKR) ₨</item>
+        <item>107. PZloty (PLN) zł</item>
+        <item>108. Guarani (PYG) ₲</item>
+        <item>109. Qatari Rial (QAR) رق</item>
+        <item>110. Leu (RON) L</item>
+        <item>111. Serbian Dinar (RSD) din</item>
+        <item>112. Russian Ruble (RUB) р</item>
+        <item>113. Rwanda Franc (RWF) ₣</item>
+        <item>114. Saudi Riyal (SAR) رس</item>
+        <item>115. Solomon Islands Dollar (SBD) $</item>
+        <item>116. Seychelles Rupee (SCR) ₨</item>
+        <item>117. Sudanese Pound (SDG) £</item>
+        <item>118. Swedish Krona (SEK) kr</item>
+        <item>119. Singapore Dollar (SGD) $</item>
+        <item>120. Saint Helena Pound (SHP) £</item>
+        <item>121. Leone (SLL) Le</item>
+        <item>122. Somali Shilling (SOS) Sh</item>
+        <item>123. Suriname Dollar (SRD) $</item>
+        <item>124. Dobra (STN) Db</item>
+        <item>125. Syrian Pound (SYP) لس</item>
+        <item>126. Lilangeni (SZL) L</item>
+        <item>127. Baht (THB) ฿</item>
+        <item>128. Somoni (TJS) ЅМ</item>
+        <item>129. Manat (TMT) m</item>
+        <item>130. Tunisian Dinar (TND) دت</item>
+        <item>131. Pa’anga (TOP) T$</item>
+        <item>132. Turkish Lira (TRY) ₤</item>
+        <item>133. Trinidad and Tobago Dollar (TTD) $</item>
+        <item>134. Taiwan Dollar (TWD) $</item>
+        <item>135. Tanzanian Shilling (TZS) Sh</item>
+        <item>136. Hryvnia (UAH) ₴</item>
+        <item>137. Uganda Shilling (UGX) Sh</item>
+        <item>138. US Dollar (USD) $</item>
+        <item>139. Peso Uruguayo (UYU) $</item>
+        <item>140. Uzbekistan Sum (UZS) </item>
+        <item>141. Bolivar Fuerte (VEF) Bs F</item>
+        <item>142. Dong (VND) ₫</item>
+        <item>143. Vatu (VUV) Vt</item>
+        <item>144. Tala (WST) T</item>
+        <item>145. CFA Franc BCEAO (XAF) ₣</item>
+        <item>146. East Caribbean Dollar (XCD) $</item>
+        <item>147. CFP Franc (XPF) ₣</item>
+        <item>148. Yemeni Rial (YER) ﷼</item>
+        <item>149. Rand (ZAR) R</item>
+        <item>150. Zambian Kwacha (ZMW) ZK</item>
+        <item>151. Zimbabwe Dollar (ZWL) $\n</item>
+    </string-array>
+
+    <!--Preferences Screen -->
+
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">General</string>
+    <string name="sync_header">About</string>
+    <!-- Sound Preferences -->
+    <string name="signature_title">Show Notifications</string>
+    <string name="reply_title">Interval</string>
+    <string name="attachment_summary_on">Shows notification when rate changes
+    </string>
+    <string name="attachment_summary_off">Disabled</string>
+    <!--array For intervals-->
+    <string-array name="intervals">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+    </string-array>
+    <!--Version Info-->
+    <string name="version">Version 1.0</string>
+</resources>

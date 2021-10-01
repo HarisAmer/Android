@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/messages_header">
+        <SwitchPreference
+            app:allowDividerBelow="true"
+            app:defaultValue="true"
+            app:key="showNotification"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:dependency="showNotification"
+            app:defaultValue="1 hour"
+            app:key="interval"
+            android:defaultValue="1 hour"
+            app:useSimpleSummaryProvider="true"
+            android:entries="@array/intervals"
+            android:entryValues="@array/intervals"
+            app:title="@string/reply_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+        <Preference
+            app:summary="@string/version"
+            app:title="@string/app_name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
