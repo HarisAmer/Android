@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Currency Exchanger lite</string>
+    <string name="app_name">Currency Converter lite</string>
 
     <string-array name="countryNames">
         <item>1. UAE Dirham (AED) دإ</item>

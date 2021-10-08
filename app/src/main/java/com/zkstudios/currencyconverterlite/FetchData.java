@@ -77,27 +77,32 @@ public class FetchData extends AsyncTask<String,Void,String>
                     .get();
             Elements data=doc.select("div");
             //Getting the size
-            int size=data.size();
-            for(int i=0;i<size;i++)
-            {
-                String fromRate=data.select("p.result__ConvertedText-sc-1bsijpp-0.gwvOOF")
-                        .eq(i)
-                        .text();
-                String toRate=data.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")
-                        .eq(i).text();
-
-
-
-                str=fromRate+toRate;
-//                return  rate;
-                Log.e("from=",fromRate);
-                Log.e("toRate=",toRate);
-            }
-            String fromOne=data.select("div.unit-rates___StyledDiv-sc-1dk593y-0.dEqdnx")
+//            int size=data.size();
+//            for(int i=0;i<size;i++)
+//            {
+//                String fromRate=data.select("p.result__ConvertedText-sc-1bsijpp-0.gwvOOF")
+//                        .eq(i)
+//                        .text();
+//                String toRate=data.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")
+//                        .eq(i).text();
+//
+//
+//
+//                str=fromRate+toRate;
+////                return  rate;
+//                Log.e("from=",fromRate);
+//                Log.e("toRate=",toRate);
+//            }
+            String from=data.select("div.unit-rates___StyledDiv-sc-1dk593y-0.dEqdnx")
                     .select("p")
                     .eq(0)
                     .text();
-            Log.e("toCountry=",fromOne);
+            String to=data.select("div.unit-rates___StyledDiv-sc-1dk593y-0.dEqdnx")
+                    .select("p")
+                    .eq(1)
+                    .text();
+            Log.e("toCountry=",from);
+            Log.e("toCountry=",to);
 
         }
         catch (Exception e)

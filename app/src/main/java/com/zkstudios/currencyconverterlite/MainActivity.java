@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -30,7 +31,7 @@ import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity {
     ImageView swapImage;
-    Spinner fromSpinner,toSpinner;
+    AutoCompleteTextView fromSpinner,toSpinner;
     static String from="usd",to="pkr";
     static ProgressBar progressBar;
     static int val1=0;
@@ -69,15 +70,17 @@ public class MainActivity extends AppCompatActivity {
         //Getting the saved values
         getValues();
         adView=findViewById(R.id.adView0);
-        fromSpinner=findViewById(R.id.from);
+        fromSpinner= (AutoCompleteTextView) findViewById(R.id.from);
         swapImage=findViewById(R.id.swap);
-        toSpinner=findViewById(R.id.to);
+        toSpinner=(AutoCompleteTextView) findViewById(R.id.to);
         progressBar=findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
         fromSpinner.setAdapter(setSpinnerData());
         toSpinner.setAdapter(setSpinnerData());
-        fromSpinner.setSelection(val1);
-        toSpinner.setSelection(val2);
+        fromSpinner.setThreshold(1);
+        toSpinner.setThreshold(1);
+//        fromSpinner.setSelection(val1);
+//        toSpinner.setSelection(val2);
         information=findViewById(R.id.information);
         information.setText(pastRate);
         if(from.equals(""))
@@ -88,30 +91,30 @@ public class MainActivity extends AppCompatActivity {
         {
             to="(PKR)";
         }
-        fromSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                from=parent.getItemAtPosition(position).toString();
-                val1=position;
-                setValue(val1,val2,pastRate);
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(MainActivity.this, "Nothing Changed", Toast.LENGTH_SHORT).show();
-            }
-        });
-        toSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                to=parent.getItemAtPosition(position).toString();
-                val2=position;
-                setValue(val1,val2,pastRate);
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(MainActivity.this, "Nothing Changed", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        fromSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//                from=parent.getItemAtPosition(position).toString();
+//                val1=position;
+//                setValue(val1,val2,pastRate);
+//            }
+//            @Override
+//            public void onNothingSelected(AdapterView<?> parent) {
+//                Toast.makeText(MainActivity.this, "Nothing Changed", Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//        toSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//                to=parent.getItemAtPosition(position).toString();
+//                val2=position;
+//                setValue(val1,val2,pastRate);
+//            }
+//            @Override
+//            public void onNothingSelected(AdapterView<?> parent) {
+//                Toast.makeText(MainActivity.this, "Nothing Changed", Toast.LENGTH_SHORT).show();
+//            }
+//        });
         swapImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -143,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
         {
 
         }
-
     }
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void jobScheduler(String val)
@@ -249,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
+//        adView.loadAd(adRequest);
         getValues();
         if(showNotification)
         {

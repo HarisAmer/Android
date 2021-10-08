@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/drawable/activity_main1.xml" value="0.14427083333333332" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14427083333333332" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/drawable/rate_changes.xml" value="0.14427083333333332" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/drawable/table.xml" value="0.14427083333333332" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/activity_main1.xml" value="0.25" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/fragment_PastRate.xml" value="0.128125" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/fragment_past_rate.xml" value="0.128125" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/layout/fragment_table.xml" value="0.128125" />
         <entry key="..\:/android1/androidProjects/app/src/main/res/layout/settings_activity.xml" value="0.1875" />
+        <entry key="..\:/android1/androidProjects/app/src/main/res/menu/bottom_navigation.xml" value="0.128125" />
       </map>
     </option>
   </component>
